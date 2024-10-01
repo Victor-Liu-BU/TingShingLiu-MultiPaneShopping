@@ -85,7 +85,7 @@ fun ShoppingApp() {
                     ProductDetailsScreen(
                         product = selectedProduct,
                         onBackPressed = {
-                            selectedProduct = null  // Reset selected product
+                            selectedProduct = null 
                             navController.popBackStack()
                         }
                     )
